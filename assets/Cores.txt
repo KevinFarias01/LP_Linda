@@ -1,0 +1,10 @@
+Amarelo Principal : #d3b900
+
+Verde Principal: #00572b
+
+Verde Detox: #1b3926
+
+Azul Principal: #002165
+
+Azul Premium : #5bb4be
+
