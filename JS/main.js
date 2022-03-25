@@ -6,4 +6,3 @@ function corCirculo(cor) {
     const circulo = document.querySelector('.circulo');
     circulo.style.background = cor;
 }
-
