@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="CSS/circulo.css">
 </head>
 
-<body>
-    <section>
+<body cla>
+    <section class="linda">
         <div class="circulo">
 
         </div>
@@ -32,22 +32,28 @@
         <div class="content">
             <div class="texto">
                 <h2>Elimine o peso indesejável!<br>Com o <span>InShape!</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam ipsam quas, architecto iste
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam ipsam quas,
+                    architecto iste
                     esse placeat accusantium fuga molestias, dolorum minus ratione harum. Dicta, accusantium in? Placeat
                     distinctio consequatur sint.</p>
-                <a href="#">Saiba Mais!</a>
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5575988039087" target="_blank">Saiba Mais!</a>
             </div>
             <div class="imagem">
-                <img src="assets/img G/img1.png" alt="inShape">
+                <img src="assets/img G/img1.png" class="imagemGrande" alt="inShape">
             </div>
         </div>
 
         <ul class="miniatura">
-            <li><img src="assets/img P/ico1.png" alt="InShape"></li>
-            <li><img src="assets/img P/ico2.png" alt="Detox"></li>
-            <li><img src="assets/img P/ico3.png" alt="Premium"></li>
-            <li><img src="assets/img P/ico4.png" alt="Premium"></li>
-            <li><img src="assets/img P/ico5.png" alt="Premium"></li>
+            <li><img src="assets/img P/ico1.png" onclick="mudaFoto('assets/img G/img1.png'); corCirculo('#00572b')"
+                    alt="InShape"></li>
+            <li><img src="assets/img P/ico2.png" onclick="mudaFoto('assets/img G/img2.png'); corCirculo('#002165')"
+                    alt="Detox"></li>
+            <li><img src="assets/img P/ico3.png" onclick="mudaFoto('assets/img G/img3.png'); corCirculo('#1b3926')"
+                    alt="Premium"></li>
+            <li><img src="assets/img P/ico4.png" onclick="mudaFoto('assets/img G/img4.png'); corCirculo('#5bb4be')"
+                    alt="Premium"></li>
+            <li><img src="assets/img P/ico5.png" onclick="mudaFoto('assets/img G/img5.png'); corCirculo('#d3b900')"
+                    alt="Premium"></li>
         </ul>
 
         <ul class="social">
@@ -59,6 +65,9 @@
                         alt="Facebook"></a></li>
         </ul>
     </section>
+
+    <script type="text/javascript" src="JS/main.js">
+    </script>
 </body>
 
 </html>
