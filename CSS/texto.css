@@ -1,24 +1,24 @@
-.content .texto{
+.content .box-texto{
     position: relative;
     max-width: 600px;
 }
-.content .texto h2{
+.content .boxtexto h2{
     color: #333;
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
-.content .texto h2 span{
+.content .box-texto h2 span{
     color: #017143;
     font-size: 1.2em;
     font-weight: 700;
 }
-.content .texto p{
+.content .box-texto p{
     color: #333;
 }
 
-.content .texto a{
+.saibaMais{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
