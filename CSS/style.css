@@ -17,3 +17,93 @@ section{
     justify-content: space-between;
     align-items: center;
 }
+
+
+@media (max-width: 990px){
+    header{
+        padding: 20px;
+
+    }
+    header .logo {
+        position: relative;
+        max-width: 260px;
+    }
+    header ul {
+        display: none;
+    }
+    section{
+        padding: 20px;
+    }
+   /*  TEXTO  */
+    .content{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .content .box-texto h2{
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
+    .content .box-texto{
+        max-width: 100%;
+    } 
+
+    .circulo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+        background: #00572b;
+    
+        clip-path: circle(360px at center bottom);
+    }
+      /*  IMAGEM  */
+
+
+    .content .imagem{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .content .imagem .imagemGrande{
+        justify-content: center;
+    }
+    
+    .content .imagem img{
+        max-width: 300px;
+    }
+
+    
+    .lista{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(../menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+
+    }
+    .miniatura li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    /*Mover as miniaturas  eixo Y */
+    .miniatura li:hover{
+        transform: translateY(-18px);
+    }
+    
+    .miniatura li img{
+        max-width: 50px;
+    }
+}
