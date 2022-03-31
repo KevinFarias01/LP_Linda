@@ -1,32 +1,36 @@
-@media (max-width: 990px){
-    header{
+@media (max-width: 990px) {
+    header {
         padding: 20px;
 
     }
+
     header .logo {
         position: relative;
         max-width: 260px;
     }
-    header ul {
+
+    header ul li {
         display: none;
     }
-    section{
+
+    section {
         padding: 20px;
     }
-   /*  TEXTO  */
-    .content{
+
+    /*  TEXTO  */
+    .content {
         flex-direction: column;
         margin-top: 100px;
     }
 
-    .content .box-texto h2{
+    .content .box-texto h2 {
         font-size: 2.5em;
         margin-bottom: 15px;
     }
 
-    .content .box-texto{
+    .content .box-texto {
         max-width: 100%;
-    } 
+    }
 
     .circulo {
         position: absolute;
@@ -34,31 +38,32 @@
         left: 0;
         width: 100%;
         height: 100%;
-    
+
         background: #00572b;
-    
+
         clip-path: circle(360px at center bottom);
     }
-      /*  IMAGEM  */
+
+    /*  IMAGEM  */
 
 
-    .content .imagem{
+    .content .imagem {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 50px;
     }
 
-    .content .imagem .imagemGrande{
+    .content .imagem .imagemGrande {
         justify-content: center;
     }
-    
-    .content .imagem img{
+
+    .content .imagem img {
         max-width: 300px;
     }
 
-    
-    .lista{
+
+    .lista {
         position: relative;
         width: 30px;
         height: 30px;
@@ -70,19 +75,21 @@
         filter: invert(1);
 
     }
-    .miniatura li{
+
+    .miniatura li {
         list-style: none;
         display: inline-block;
         margin: 0 10px;
         cursor: pointer;
         transition: 0.5s;
     }
+
     /*Mover as miniaturas  eixo Y */
-    .miniatura li:hover{
+    .miniatura li:hover {
         transform: translateY(-18px);
     }
-    
-    .miniatura li img{
+
+    .miniatura li img {
         max-width: 50px;
     }
 }
